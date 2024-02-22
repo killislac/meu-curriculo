@@ -1,2 +1,2 @@
-# meu-curr-culo
+# meu-currículo
 Este é o meu currículo
