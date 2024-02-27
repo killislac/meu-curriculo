@@ -1,15 +1,48 @@
+
+
+
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 60px;
+    
+}
 h1 {
     text-align: center;
     
   }
 
 h2{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 hr{
-    border: 1px solid;
+    border: 6px solid;
+    color: blanchedalmond;
+    border-radius: 30px;
+
+   
 }
 #text{
     text-align: center;
+
+}
+
+#text a {
+    color: rgb(0, 0, 0)
+
+}
+
+#text a {
+   text-decoration: none;
+}
+
+section{
+    padding: 40px;
+    
+}
+main{
+    background-color: blanchedalmond;
+    border: 2px solid blanchedalmond;
+    border-radius: 30px;
 }
