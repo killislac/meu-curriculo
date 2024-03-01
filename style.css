@@ -2,6 +2,7 @@
 
 :root{
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 body{
     margin-left: 80px;
@@ -46,6 +47,25 @@ hr{
    text-decoration: none;
 }
 
+#tecnologias{
+    display: flex;
+    justify-content: space-around;
+}
+
+article h1{
+    font-size:2rem;
+    font-weight: 600;
+}
+article h2{
+    font-size:1.5rem;
+    font-weight: bold;
+}
+article p{
+    text-align: justify;
+}
+article{
+    width: 30%;
+}
 section{
     padding: 40px;
     line-height: 1.5;
