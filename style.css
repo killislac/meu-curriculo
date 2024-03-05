@@ -13,7 +13,7 @@ body{
 
     
 }
-h1 {
+.titulo {
     text-align: center;
     font-size: 2rem;
     text-shadow: 2px 2px 2px grey;
@@ -31,6 +31,17 @@ hr{
     color: blanchedalmond;
     border-radius: 30px;
    
+}
+.continue{
+    background-color: #edc984;
+    padding: .5em 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+   /* box-shadow: 5px 10px;*/
+}
+.continue a {
+    color: white;
+    text-decoration: none;
 }
 #text{
     text-align: center;
@@ -51,20 +62,34 @@ hr{
     display: flex;
     justify-content: space-around;
 }
-
+.autor{
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 80%;
+}
+.data{
+    font-style: oblique;
+    font-size: 80%;
+}
 article h1{
     font-size:2rem;
     font-weight: 600;
+    text-align: center;
 }
 article h2{
-    font-size:1.5rem;
+    font-size:1.0rem;
     font-weight: bold;
+    text-align: center;
 }
 article p{
     text-align: justify;
+    margin-bottom: 1rem;
 }
 article{
     width: 30%;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 30px;
 }
 section{
     padding: 40px;
