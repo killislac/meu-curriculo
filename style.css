@@ -33,16 +33,17 @@ hr{
    
 }
 .continue{
+    color: white;
     background-color: #edc984;
     padding: .5em 1rem;
     margin-top: 1rem;
     border-radius: 8px;
-   /* box-shadow: 5px 10px;*/
-}
-.continue a {
-    color: white;
+    box-shadow: 0px 4px 10px rgb(56, 56, 56);
     text-decoration: none;
+
 }
+
+    
 #text{
     text-align: center;
     font-size: 15px;
@@ -88,15 +89,26 @@ article p{
 article{
     width: 30%;
     background-color: antiquewhite;
-    padding: 30px;
     border-radius: 30px;
+    box-shadow: 0px 4px 10px grey;
+    background: linear-gradient(rgb(255, 255, 194), rgb(255, 234, 3));
+}
+article:hover{
+    transform: scale(1.1);
+    transition: 500ms linear;
 }
 section{
-    padding: 40px;
     line-height: 1.5;
 }
+section, article{
+    padding: 30px;
+}
 main{
-    background-color: blanchedalmond;
+    background: linear-gradient(rgb(255, 255, 194), rgb(255, 234, 3));
     border: 2px solid blanchedalmond;
     border-radius: 30px;
+    box-shadow: 0px 4px 10px grey;
+}
+.listas-tags li{
+    display: inline;
 }
