@@ -3,17 +3,31 @@
 :root{
     font-size: 20px;
     scroll-behavior: smooth;
+    --cor-background:linear-gradient(rgb(255, 255, 194), rgb(255, 234, 3));
+  
 }
+
+[data-tema="light"]{
+    --planofundo: white;
+
+}
+[data-tema="dark"]{
+    --planofundo: black;
+    --cor-fonte:white;
+}
+
 body{
     margin-left: 80px;
     margin-right: 80px;
     border-radius: 60px;
     font-family: "PT Serif", serif;
     margin: 1rem 4rem 1rem 4rem;
+    background-color: var(--planofundo);
 
     
 }
 .titulo {
+    color: var(--cor-fonte);
     text-align: center;
     font-size: 2rem;
     text-shadow: 2px 2px 2px grey;
@@ -28,13 +42,13 @@ h2{
 
 hr{
     border: 6px solid;
-    color: blanchedalmond;
+    color:rgb(245, 245, 100);
     border-radius: 30px;
    
 }
 .continue{
     color: white;
-    background-color: #edc984;
+    background-color: #eef476;
     padding: .5em 1rem;
     margin-top: 1rem;
     border-radius: 8px;
@@ -45,14 +59,14 @@ hr{
 
     
 #text{
+    color: var(--cor-fonte);
     text-align: center;
     font-size: 15px;
     margin-bottom: 10px;
 }
 
 #text a {
-    color: rgb(0, 0, 0)
-
+    color: var(--cor-fonte)
 }
 
 #text a {
@@ -91,7 +105,7 @@ article{
     background-color: antiquewhite;
     border-radius: 30px;
     box-shadow: 0px 4px 10px grey;
-    background: linear-gradient(rgb(255, 255, 194), rgb(255, 234, 3));
+    background: var(--cor-background);
 }
 article:hover{
     transform: scale(1.1);
@@ -104,11 +118,23 @@ section, article{
     padding: 30px;
 }
 main{
-    background: linear-gradient(rgb(255, 255, 194), rgb(255, 234, 3));
+    background: var(--cor-background);
     border: 2px solid blanchedalmond;
     border-radius: 30px;
     box-shadow: 0px 4px 10px grey;
 }
 .listas-tags li{
     display: inline;
+}
+button{
+    background-color: #eef476;
+    border: #edc984;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 600ms linear;
 }
